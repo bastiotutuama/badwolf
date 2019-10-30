@@ -39,7 +39,7 @@ import (
 func New(store storage.Store, chanSize, bulkSize int) *command.Command {
 	cmd := &command.Command{
 		UsageLine: "server port",
-		Short:     "runs a BQL endoint.",
+		Short:     "runs a BQL endpoint.",
 		Long: `Runs a BQL endpoint with the provided driver. It allows running
 all BQL queries and returns a JSON table with the results.`,
 	}
